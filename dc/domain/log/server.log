@@ -1,0 +1,73 @@
+=========================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: /home/centos/JbossEAP7.3/dc
+
+  JAVA: java
+
+  JAVA_OPTS: -server -Xms64m -Xmx512m -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true  --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED
+
+=========================================================================
+
+[0m10:58:22,338 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+[0m[0m10:58:23,017 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+[0m[0m10:58:23,038 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m10:58:24,065 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001[0m
+[Host Controller] [0m[0m10:58:24,883 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001[0m
+[Host Controller] [0m[0m10:58:24,908 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001[0m
+[Host Controller] [0m[0m10:58:25,049 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) starting[0m
+[Host Controller] [0m[0m10:58:26,730 INFO  [org.wildfly.security] (Host Controller Service Threads - 4) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001[0m
+[Host Controller] [0m[0m10:58:27,786 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=dc-hostname/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m10:58:27,795 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=dc-hostname/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m10:58:27,988 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)[0m
+[Host Controller] [0m[0m10:58:28,031 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.7.7.Final-redhat-00001[0m
+[Host Controller] [0m[0m10:58:28,088 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001[0m
+[Host Controller] [0m[0m10:58:28,300 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.16.Final-redhat-00001[0m
+[Host Controller] [0m[0m10:58:28,337 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[33m10:58:28,576 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/centos/JbossEAP7.3/dc/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost[0m
+[Host Controller] [33m[0m[0m10:58:28,679 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) WFLYRMT0001: Listening on 172.31.80.90:19999[0m
+[Host Controller] [0m[0m10:58:33,682 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=default/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m10:58:33,803 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=ha/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m10:58:33,887 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=full/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m10:58:33,967 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=full-ha/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m10:58:34,647 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://172.31.80.90:19990/management and https://172.31.80.90:-1/management[0m
+[Host Controller] [0m[0m10:58:34,647 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://172.31.80.90:19990 and https://172.31.80.90:-1[0m
+[Host Controller] [0m[0m10:58:34,647 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) (Host Controller) started in 11416ms - Started 81 of 83 services (26 services are lazy, passive or on-demand)[0m
+[Host Controller] [0m[0m10:58:59,554 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 40) WFLYHC0019: Registered remote slave host "hc1-hostname", JBoss JBoss EAP 7.3.0.GA (WildFly 10.1.2.Final-redhat-00001)[0m
+[Host Controller] [0m[0m
+[0m11:01:22,991 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 137
+[0m[0m11:01:23,179 INFO  [org.jboss.as.process-controller.server] (reaper for Host Controller) WFLYPC0021: Waiting 1 seconds until trying to restart process Host Controller.
+[0m[0m11:01:24,189 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m11:01:30,642 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001[0m
+[Host Controller] [0m[0m11:01:32,684 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001[0m
+[Host Controller] [0m[0m11:01:32,700 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001[0m
+[Host Controller] [0m[0m11:01:32,960 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) starting[0m
+[Host Controller] [0m[0m11:01:35,173 INFO  [org.wildfly.security] (Host Controller Service Threads - 4) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001[0m
+[Host Controller] [0m[0m11:01:35,844 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=dc-hostname/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m11:01:35,855 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=dc-hostname/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m11:01:36,584 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)[0m
+[Host Controller] [0m[0m11:01:36,770 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.7.7.Final-redhat-00001[0m
+[Host Controller] [0m[0m11:01:36,791 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001[0m
+[Host Controller] [0m[0m11:01:36,904 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.16.Final-redhat-00001[0m
+[Host Controller] [0m[0m11:01:37,674 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[33m11:01:37,915 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/centos/JbossEAP7.3/dc/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost[0m
+[Host Controller] [33m[0m[0m11:01:38,677 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) WFLYRMT0001: Listening on 172.31.80.90:19999[0m
+[Host Controller] [0m[0m11:01:53,918 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=default/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m11:01:54,028 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=ha/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m11:01:54,111 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=full/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m11:01:54,189 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=full-ha/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m11:01:55,578 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://172.31.80.90:19990/management and https://172.31.80.90:-1/management[0m
+[Host Controller] [0m[0m11:01:55,579 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://172.31.80.90:19990 and https://172.31.80.90:-1[0m
+[Host Controller] [0m[0m11:01:55,579 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) (Host Controller) started in 29658ms - Started 81 of 83 services (26 services are lazy, passive or on-demand)[0m
+[Host Controller] [0m[0m11:02:09,354 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 39) WFLYHC0019: Registered remote slave host "hc1-hostname", JBoss JBoss EAP 7.3.0.GA (WildFly 10.1.2.Final-redhat-00001)[0m
+[0m13:14:44,238 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0017: Shutting down process controller
+[0m[0m13:14:44,242 INFO  [org.jboss.as.process.Host Controller.status] (Shutdown thread) WFLYPC0019: Stopping process 'Host Controller'
+[0m[Host Controller] [0m[0m13:14:44,264 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down[0m
+[Host Controller] [0m[33m13:14:44,299 WARN  [org.jboss.as.domain.controller] (MSC service thread 1-2) WFLYHC0030: Connection to remote host "hc1-hostname" closed unexpectedly[0m
+[Host Controller] [33m[0m[0m13:14:44,326 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) stopped in 47ms[0m
+[Host Controller] [0m[0m
+[0m13:14:44,350 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 0
+[0m[0m13:14:44,352 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0016: All processes finished; exiting
+[0m12405
+[  OK  ]

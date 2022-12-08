@@ -1,0 +1,41 @@
+2022-10-04 10:58:50,908 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+2022-10-04 10:58:51,738 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001
+2022-10-04 10:58:51,763 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+2022-10-04 10:58:51,928 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) starting
+2022-10-04 10:58:53,089 INFO  [org.wildfly.security] (Host Controller Service Threads - 4) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001
+2022-10-04 10:58:53,735 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=hc1-hostname/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-10-04 10:58:53,751 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=hc1-hostname/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-10-04 10:58:53,752 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-10-04 10:58:54,058 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.7.7.Final-redhat-00001
+2022-10-04 10:58:54,067 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001
+2022-10-04 10:58:54,070 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)
+2022-10-04 10:58:54,307 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.16.Final-redhat-00001
+2022-10-04 10:58:54,372 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2022-10-04 10:58:54,523 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/centos/JbossEAP7.3/hc/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2022-10-04 10:58:54,706 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) WFLYRMT0001: Listening on 172.31.80.91:19999
+2022-10-04 10:58:59,241 INFO  [org.jboss.as.controller.management-deprecated] (Host Controller Service Threads - 2) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/profile=full/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-10-04 10:58:59,557 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://172.31.80.90:19999
+2022-10-04 10:58:59,689 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server server-one
+2022-10-04 10:59:00,041 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://172.31.80.91:19990/management and https://172.31.80.91:-1/management
+2022-10-04 10:59:00,042 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2022-10-04 10:59:00,042 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) (Host Controller) started in 9969ms - Started 79 of 81 services (26 services are lazy, passive or on-demand)
+2022-10-04 10:59:00,056 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-one
+2022-10-04 11:00:55,937 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 4) WFLYHC0023: Starting server server-one
+2022-10-04 11:01:01,116 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:server-one] connected using connection [Channel ID 79305237 (inbound) of Remoting connection 44831ce6 to ip-172-31-80-91.ec2.internal/172.31.80.91:40326 of endpoint "hc1-hostname:MANAGEMENT" <3a817c76>]
+2022-10-04 11:01:01,208 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-one
+2022-10-04 11:01:23,202 INFO  [org.jboss.as.protocol] (management task-2) WFLYPRT0057:  cancelled task by interrupting thread Thread[Host Controller Service Threads - 17,5,Host Controller Service Threads]
+2022-10-04 11:01:23,211 WARN  [org.jboss.as.host.controller] (management task-2) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2022-10-04 11:01:23,223 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 11:01:24,266 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 11:01:28,271 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 11:01:37,283 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 11:01:50,866 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-one
+2022-10-04 11:01:52,315 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 11:02:08,770 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 11:02:09,356 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0148: Connected to master host controller at remote://172.31.80.90:19999
+2022-10-04 13:14:44,300 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2022-10-04 13:14:44,301 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 211) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 13:14:45,306 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 211) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 13:14:49,308 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 211) WFLYHC0150: Trying to reconnect to master host controller.
+2022-10-04 13:14:51,281 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2022-10-04 13:14:51,373 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) stopped in 83ms

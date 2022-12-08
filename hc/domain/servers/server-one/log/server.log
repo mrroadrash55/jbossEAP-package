@@ -1,0 +1,142 @@
+2022-10-04 11:00:57,474 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final-redhat-00001
+2022-10-04 11:00:58,485 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final-redhat-00001
+2022-10-04 11:00:58,515 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final-redhat-00001
+2022-10-04 11:00:58,896 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) starting
+2022-10-04 11:00:58,913 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Server:server-one] = 
+	[pcid:205569665] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/centos/JbossEAP7.3/hc/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /usr/local/jdk-11.0.1
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.1+13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.1
+	java.version.date = 2018-10-16
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.1+13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.domain.base.dir = /home/centos/JbossEAP7.3/hc/domain
+	jboss.domain.config.dir = /home/centos/JbossEAP7.3/hc/domain/configuration
+	jboss.home.dir = /home/centos/JbossEAP7.3/hc
+	jboss.host.name = ip-172-31-80-90
+	jboss.modules.dir = /home/centos/JbossEAP7.3/hc/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = hc1-hostname:server-one
+	jboss.qualified.host.name = ip-172-31-80-90.ec2.internal
+	jboss.server.base.dir = /home/centos/JbossEAP7.3/hc/domain/servers/server-one
+	jboss.server.config.dir = /home/centos/JbossEAP7.3/hc/domain/servers/server-one/configuration
+	jboss.server.data.dir = /home/centos/JbossEAP7.3/hc/domain/servers/server-one/data
+	jboss.server.deploy.dir = /home/centos/JbossEAP7.3/hc/domain/servers/server-one/data/content
+	jboss.server.log.dir = /home/centos/JbossEAP7.3/hc/domain/servers/server-one/log
+	jboss.server.name = server-one
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/centos/JbossEAP7.3/hc/domain/servers/server-one/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/centos/JbossEAP7.3/hc/domain/configuration/default-server-logging.properties
+	module.path = /home/centos/JbossEAP7.3/hc/modules
+	org.jboss.boot.log.file = /home/centos/JbossEAP7.3/hc/domain/servers/server-one/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-1160.76.1.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/local/jdk-11.0.1/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/centos/JbossEAP7.3/hc/jboss-modules.jar -mp /home/centos/JbossEAP7.3/hc/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/centos/JbossEAP7.3/hc
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = UTC
+2022-10-04 11:00:58,920 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED -D[Server:server-one] -D[pcid:205569665] -Xms100m -Xmx100m -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/home/centos/JbossEAP7.3/hc -Djboss.modules.system.pkgs=org.jboss.byteman -Djboss.server.log.dir=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/log -Djboss.server.temp.dir=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/tmp -Djboss.server.data.dir=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/data -Dorg.jboss.boot.log.file=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/log/server.log -Dlogging.configuration=file:/home/centos/JbossEAP7.3/hc/domain/configuration/default-server-logging.properties 
+2022-10-04 11:00:59,269 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.7.7.Final-redhat-00001
+2022-10-04 11:00:59,278 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.7.7.Final-redhat-00001
+2022-10-04 11:00:59,464 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.16.Final-redhat-00001
+2022-10-04 11:01:00,408 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.10.4.Final-redhat-00001
+2022-10-04 11:01:23,631 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 69) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-10-04 11:01:24,312 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 105) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-10-04 11:01:24,332 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 95) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2022-10-04 11:01:24,352 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 96) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2022-10-04 11:01:24,363 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 84) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-10-04 11:01:24,423 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 97) WFLYNAM0001: Activating Naming Subsystem
+2022-10-04 11:01:24,425 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 103) WFLYSEC0002: Activating Security Subsystem
+2022-10-04 11:01:24,422 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 85) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2022-10-04 11:01:24,452 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 107) WFLYWS0002: Activating WebServices Extension
+2022-10-04 11:01:24,468 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 83) WFLYIIOP0001: Activating IIOP Subsystem
+2022-10-04 11:01:24,578 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 106) WFLYUT0014: Creating file handler for path '/home/centos/JbossEAP7.3/hc/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-10-04 11:01:24,460 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 91) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2022-10-04 11:01:24,592 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 86) WFLYRS0016: RESTEasy version 3.9.3.SP1-redhat-00001
+2022-10-04 11:01:24,693 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 76) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-10-04 11:01:24,876 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00005
+2022-10-04 11:01:25,068 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.19.Final-redhat-00001)
+2022-10-04 11:01:25,328 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.28.SP1-redhat-00001 starting
+2022-10-04 11:01:25,655 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 4 (per class), which is derived from the number of CPUs on this host.
+2022-10-04 11:01:25,656 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-10-04 11:01:25,657 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 16 (per class), which is derived from thread worker pool sizing.
+2022-10-04 11:01:25,705 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2022-10-04 11:01:25,877 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-10-04 11:01:27,192 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2022-10-04 11:01:27,280 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-1) WFLYIIOP0009: CORBA ORB Service started
+2022-10-04 11:01:27,303 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2022-10-04 11:01:27,485 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2022-10-04 11:01:27,492 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 172.31.80.91:8230
+2022-10-04 11:01:27,603 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: JBoss EAP cumulative patch ID is: base, one-off patches include: none
+2022-10-04 11:01:27,920 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0075: AIO wasn't located on this platform, it will fall back to using pure Java NIO. Your platform is Linux, install LibAIO to enable the AIO journal and achieve optimal performance.
+2022-10-04 11:01:27,964 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/centos/JbossEAP7.3/hc/domain/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2022-10-04 11:01:28,016 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-10-04 11:01:28,133 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 172.31.80.91:8593
+2022-10-04 11:01:28,315 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/data/activemq/journal,bindingsDirectory=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/data/activemq/bindings,largeMessagesDirectory=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/data/activemq/largemessages,pagingDirectory=/home/centos/JbossEAP7.3/hc/domain/servers/server-one/data/activemq/paging)
+2022-10-04 11:01:28,387 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221013: Using NIO Journal
+2022-10-04 11:01:28,650 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2022-10-04 11:01:28,650 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2022-10-04 11:01:28,838 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221034: Waiting indefinitely to obtain live lock
+2022-10-04 11:01:28,838 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221035: Live Server Obtained live lock
+2022-10-04 11:01:29,207 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.3.0.Final-redhat-00001 (Apache CXF 3.3.4.redhat-00001) 
+2022-10-04 11:01:29,233 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2022-10-04 11:01:29,233 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2022-10-04 11:01:29,235 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2022-10-04 11:01:29,235 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2022-10-04 11:01:29,779 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221007: Server is now live
+2022-10-04 11:01:29,780 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 109) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.9.0.redhat-00005 [default, nodeID=e55114e4-43d3-11ed-a9c4-12f4ddd18603] 
+2022-10-04 11:01:29,849 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 109) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2022-10-04 11:01:30,062 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0007: Registered connection factory java:/JmsXA
+2022-10-04 11:01:30,128 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 110) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2022-10-04 11:01:30,378 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-2) AMQ151007: Resource adaptor started
+2022-10-04 11:01:30,379 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2022-10-04 11:01:30,394 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2022-10-04 11:01:30,394 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2022-10-04 11:01:30,593 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2022-10-04 11:01:30,646 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.3.0.GA (WildFly Core 10.1.2.Final-redhat-00001) started in 34182ms - Started 336 of 602 services (381 services are lazy, passive or on-demand)
